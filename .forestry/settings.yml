@@ -4,11 +4,15 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: heading
+  label: Develop
 - type: jekyll-pages
-  label: Pages
+  label: C#
   create: all
+- type: heading
+  label: Compose
 - type: jekyll-posts
-  label: Posts
+  label: Compose
   create: all
 upload_dir: uploads
 public_path: "/uploads"
